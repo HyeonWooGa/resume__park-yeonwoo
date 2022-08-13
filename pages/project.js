@@ -5,10 +5,10 @@ const Wrapper = styled.div`
   border: 1px solid white;
 `;
 
-export default function Home() {
+export default function Project() {
   return (
     <>
-      <Seo title="On The Rocket" />
+      <Seo title="Project" />
       <Wrapper></Wrapper>
     </>
   );
