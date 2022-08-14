@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import Seo from "../components/Seo";
 
-const Wrapper = styled.div`
-  border: 1px solid white;
-`;
+const Wrapper = styled.div``;
 
 export default function Project() {
   return (
