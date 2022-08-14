@@ -36,14 +36,16 @@ export default function About() {
       <Seo title="About" />
       <Wrapper>
         <h2>
-          "박연우 On the Rocket" <i className="fa-solid fa-rocket"></i> 🚀
+          &quot;박연우 On the Rocket&quot;{" "}
+          <i className="fa-solid fa-rocket"></i> 🚀
         </h2>
         <Hr />
         <h3>About</h3>
         <P>
           저는 스스로 매일 다짐하는 슬로건이 있습니다.
-          <br /> "No Hope to No Cap"
-          <br /> "답이 없어 보이던 사람이 의심할 여지없어 보이는 사람으로"
+          <br /> &quot;No Hope to No Cap&quot;
+          <br /> &quot;답이 없어 보이던 사람이 의심할 여지없어 보이는
+          사람으로&quot;
           <br />
           <br /> 전 아직 목표까지 나아가야할 거리가 많이 남았지만
           <br /> 저의 이력서, 포트폴리오, 블로그를 보시면서
