@@ -52,7 +52,7 @@ export default function Home() {
     <>
       <Seo title="On The Rocket" />
       <Wrapper>
-        {/*isEng ? (
+        {isEng ? (
           <Div variants={divVariants} initial="start" animate="end">
             <Span variants={spanVariants}>H</Span>
             <Span variants={spanVariants}>E</Span>
@@ -122,33 +122,7 @@ export default function Home() {
             <Span variants={spanVariants}>니</Span>
             <Span variants={spanVariants}>다</Span>
           </Div>
-        )*/}
-        <Div variants={divVariants} initial="start" animate="end">
-          <Span variants={spanVariants}>안</Span>
-          <Span variants={spanVariants}>녕</Span>
-          <Span variants={spanVariants}>하</Span>
-          <Span variants={spanVariants}>세</Span>
-          <Span variants={spanVariants}>요</Span>
-          <br />
-          <br />
-          <Span variants={spanVariants}>진</Span>
-          <Span variants={spanVariants}>정</Span>
-          <Span variants={spanVariants}>성</Span>
-          <Span variants={spanVariants}>으</Span>
-          <Span variants={spanVariants}>로 </Span>
-          <Span variants={spanVariants}>승</Span>
-          <Span variants={spanVariants}>부</Span>
-          <Span variants={spanVariants}>하</Span>
-          <Span variants={spanVariants}>는</Span>
-          <br />
-          <br />
-          <Span variants={spanVariants}>박</Span>
-          <Span variants={spanVariants}>연</Span>
-          <Span variants={spanVariants}>우 </Span>
-          <Span variants={spanVariants}>입</Span>
-          <Span variants={spanVariants}>니</Span>
-          <Span variants={spanVariants}>다</Span>
-        </Div>
+        )}
       </Wrapper>
     </>
   );
