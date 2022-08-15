@@ -10,3 +10,6 @@
 
 - React
 - NextJS
+- Styled-Components
+- Recoil
+- Framer-Motion
