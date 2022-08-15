@@ -1,5 +1,7 @@
+import { useRecoilValue } from "recoil";
 import styled from "styled-components";
 import Seo from "../components/Seo";
+import { isEngState } from "../states/atoms";
 
 const Wrapper = styled.div`
   width: 60%;
@@ -31,28 +33,42 @@ const I = styled.i`
 `;
 
 export default function About() {
+  const isEng = useRecoilValue(isEngState);
   return (
     <>
       <Seo title="About" />
       <Wrapper>
         <h2>
-          &quot;박연우 On the Rocket&quot;{" "}
+          {isEng ? `"Park Yeonwoo On the Rocket"` : `"박연우 On the Rocket"`}
           <i className="fa-solid fa-rocket"></i> 🚀
         </h2>
         <Hr />
-        <h3>About</h3>
-        <P>
-          저는 스스로 매일 다짐하는 슬로건이 있습니다.
-          <br /> &quot;No Hope to No Cap&quot;
-          <br /> &quot;답이 없어 보이던 사람이 의심할 여지없어 보이는
-          사람으로&quot;
-          <br />
-          <br /> 전 아직 목표까지 나아가야할 거리가 많이 남았지만
-          <br /> 저의 이력서, 포트폴리오, 블로그를 보시면서
-          <br /> 저와 함께 일하면 재미있을지 생각해주실 수 있나요?
-        </P>
+        <h3>{isEng ? "About" : "소개"}</h3>
+        {isEng ? (
+          <P>
+            저는 스스로 매일 다짐하는 슬로건이 있습니다.
+            <br /> &quot;No Hope to No Cap&quot;
+            <br /> &quot;답이 없어 보이던 사람이 의심할 여지없어 보이는
+            사람으로&quot;
+            <br />
+            <br /> 전 아직 목표까지 나아가야할 거리가 많이 남았지만
+            <br /> 저의 이력서, 포트폴리오, 블로그를 보시면서
+            <br /> 저와 함께 일하면 재미있을지 생각해주실 수 있나요?
+          </P>
+        ) : (
+          <P>
+            저는 스스로 매일 다짐하는 슬로건이 있습니다.
+            <br /> &quot;No Hope to No Cap&quot;
+            <br /> &quot;답이 없어 보이던 사람이 의심할 여지없어 보이는
+            사람으로&quot;
+            <br />
+            <br /> 전 아직 목표까지 나아가야할 거리가 많이 남았지만
+            <br /> 저의 이력서, 포트폴리오, 블로그를 보시면서
+            <br /> 저와 함께 일하면 재미있을지 생각해주실 수 있나요?
+          </P>
+        )}
         <Hr />
-        <h3>Skills</h3>
+        <h3>{isEng ? "Skills" : "기술"}</h3>
         <P>
           JavaScript <i className="fa-brands fa-js"></i>
           <br /> &nbsp;&nbsp;&nbsp;&nbsp;- 웹 풀스택 (Express, MongoDB, Vanill
