@@ -62,7 +62,7 @@ export default function Home() {
             <br />
             <br />
             <Span variants={spanVariants}>I</Span>
-            <Span variants={spanVariants}>'</Span>
+            <Span variants={spanVariants}>&#39;</Span>
             <Span variants={spanVariants}>m </Span>
             <Span variants={spanVariants}>P</Span>
             <Span variants={spanVariants}>a</Span>
