@@ -61,8 +61,8 @@ export default function About() {
           웹 앱 V1 프로젝트 개발
           <br />
           <br /> TypeScript
-          <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Class, 객체지향 활용하여 블록체인을
-          직접 개발
+          {/*<br /> &nbsp;&nbsp;&nbsp;&nbsp;- Class, 객체지향 활용하여 블록체인을
+          직접 개발*/}
           <br /> &nbsp;&nbsp;&nbsp;&nbsp;- NextJS, React 대부분 TypeScript 사용
           <br />
           <br /> React <i className="fa-brands fa-react"></i>
