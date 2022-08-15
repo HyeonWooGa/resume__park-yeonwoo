@@ -99,11 +99,13 @@ export default function NavBar() {
       </Title>
       <Nav>
         <Link href="/about">
-          <a className={router.pathname === "/about" ? "active" : ""}>이력서</a>
+          <a className={router.pathname === "/about" ? "active" : ""}>
+            {isEng ? "Resume" : "이력서"}
+          </a>
         </Link>
         <Link href="/project">
           <a className={router.pathname === "/project" ? "active" : ""}>
-            프로젝트
+            {isEng ? "Project" : "프로젝트"}
           </a>
         </Link>
       </Nav>
