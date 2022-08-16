@@ -98,7 +98,7 @@ export default function NavBar() {
         </Container>
       </Title>
       <Nav>
-        <Link href="/about">
+        <Link href="/resume">
           <a className={router.pathname === "/about" ? "active" : ""}>
             {isEng ? "Resume" : "이력서"}
           </a>

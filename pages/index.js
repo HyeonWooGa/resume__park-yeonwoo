@@ -50,7 +50,7 @@ export default function Home() {
   useEffect(() => {}, []);
   return (
     <>
-      <Seo title="On The Rocket" />
+      <Seo title="" />
       <Wrapper>
         {isEng ? (
           <Div variants={divVariants} initial="start" animate="end">
@@ -77,15 +77,16 @@ export default function Home() {
             <Span variants={spanVariants}>o</Span>
             <br />
             <br />
-            <Span variants={spanVariants}>w</Span>
-            <Span variants={spanVariants}>o</Span>
+            <Span variants={spanVariants}>G</Span>
             <Span variants={spanVariants}>r</Span>
-            <Span variants={spanVariants}>k </Span>
+            <Span variants={spanVariants}>o</Span>
             <Span variants={spanVariants}>w</Span>
             <Span variants={spanVariants}>i</Span>
-            <Span variants={spanVariants}>t</Span>
-            <Span variants={spanVariants}>h </Span>
-            <Span variants={spanVariants}>s</Span>
+            <Span variants={spanVariants}>n</Span>
+            <Span variants={spanVariants}>g </Span>
+            <Span variants={spanVariants}>b</Span>
+            <Span variants={spanVariants}>y </Span>
+            <Span variants={spanVariants}>S</Span>
             <Span variants={spanVariants}>i</Span>
             <Span variants={spanVariants}>n</Span>
             <Span variants={spanVariants}>c</Span>
@@ -109,8 +110,8 @@ export default function Home() {
             <Span variants={spanVariants}>성</Span>
             <Span variants={spanVariants}>으</Span>
             <Span variants={spanVariants}>로 </Span>
-            <Span variants={spanVariants}>승</Span>
-            <Span variants={spanVariants}>부</Span>
+            <Span variants={spanVariants}>성</Span>
+            <Span variants={spanVariants}>장</Span>
             <Span variants={spanVariants}>하</Span>
             <Span variants={spanVariants}>는</Span>
             <br />
