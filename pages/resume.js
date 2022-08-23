@@ -80,30 +80,32 @@ export default function Resume() {
             JavaScript <i className="fa-brands fa-js"></i>
             <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Web Full Stack (Express, MongoDB,
             Vanill JS) YouTube Clone Coding
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of "Fill the Blank V1"
-            Web App Project Using DOM and EventListner
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of &quot;Fill the Blank
+            V1&quot; Web App Project Using DOM and EventListner
             <br />
             <br /> TypeScript
             {/*<br /> &nbsp;&nbsp;&nbsp;&nbsp;- Class, 객체지향 활용하여 블록체인을
           직접 개발*/}
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Using TypeScript at 'NextJS' and
-            'ReactJS'
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Using TypeScript at
+            &#39;NextJS&#39; and &#39;ReactJS&#39;
             <br />
             <br /> React <i className="fa-brands fa-react"></i>
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of "9 Mini Game
-            Collection" Web App Using State and Props
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Clone Coding of "Netflix" Using
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of &quot;9 Mini Game
+            Collection&quot; Web App Using State and Props
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Clone Coding of &quot;Netflix&quot;
+            Using
             <br />
             <br /> NextJS
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of "Resume" Web App
-            Using SSR and CSR
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of "Fill the Blank V2"
-            Web App Project Applying SEO
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of &quot;Resume&quot;
+            Web App Using SSR and CSR
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Development of &quot;Fill the Blank
+            V2&quot; Web App Project Applying SEO
             <br />
             <br /> Work in Cooperation &amp; Documentation
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Run a "Front-End Dev" Study Discord
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Experience of "Code Review" by Pair
-            Programming and Algorithm Study
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Run a &quot;Front-End Dev&quot;
+            Study Discord
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Experience of &quot;Code
+            Review&quot; by Pair Programming and Algorithm Study
             <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Blogging of Learning Contents,
             Project Progress and Retrospect
           </P>
