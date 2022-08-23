@@ -158,7 +158,7 @@ export default function Resume() {
             <br /> &nbsp;&nbsp;&nbsp;&nbsp;- A to Z full stack experience by per
             project
             <br />
-            <br /> Cho Eun's Practice Work Guide (2022.07)
+            <br /> Cho Eun&#39;s Practice Work Guide (2022.07)
             <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Code Convention (ESLint)
             <br /> &nbsp;&nbsp;&nbsp;&nbsp;- Unit Test (Jest,
             React-Testing-Library)
