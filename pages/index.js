@@ -8,9 +8,10 @@ import { isEngState } from "../states/atoms";
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100vw;
-  height: 40vh;
+  height: 100vh;
+  padding: 5%;
 `;
 
 const Div = styled(motion.div)``;
@@ -116,6 +117,9 @@ export default function Home() {
             <Span variants={spanVariants}>는</Span>
             <br />
             <br />
+            <Span variants={spanVariants}>개</Span>
+            <Span variants={spanVariants}>발</Span>
+            <Span variants={spanVariants}>자 </Span>
             <Span variants={spanVariants}>박</Span>
             <Span variants={spanVariants}>연</Span>
             <Span variants={spanVariants}>우 </Span>

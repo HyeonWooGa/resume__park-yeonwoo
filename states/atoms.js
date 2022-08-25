@@ -23,6 +23,6 @@ export const isEngState = atom({
 
 export const isDarkState = atom({
   key: "isDark",
-  default: true,
+  default: false,
   effects: [localStorageEffect("isDark")],
 });
