@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  border: solid 1px white;
+  border: solid 1px ${(props) => props.theme.textColor};
   margin: 40px auto;
   border-radius: 40px;
   padding: 40px 80px;

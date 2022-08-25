@@ -52,9 +52,10 @@ const Button = styled.button`
   font-weight: 400;
   font-size: 12px;
   background-color: transparent;
-  border: 1px solid white;
+  border: none;
   border-radius: 5px;
   padding: 5px 10px;
+  color: inherit;
 `;
 
 const ButtonContainer = styled.div`
